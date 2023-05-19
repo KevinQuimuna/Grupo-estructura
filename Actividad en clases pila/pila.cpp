@@ -11,7 +11,7 @@ void decimalToBinary(int decimal) {
         index++;
     }
 
-    cout << "El número binario es: ";
+    cout << "El numero binario es: ";
     for (int i = index - 1; i >= 0; i--) {
         cout << binary[i];
     }
@@ -20,7 +20,7 @@ void decimalToBinary(int decimal) {
 int main() {
     int decimal;
 
-    cout << "Ingrese un número decimal: ";
+    cout << "Ingrese un numero decimal: ";
     cin >> decimal;
 
     decimalToBinary(decimal);
