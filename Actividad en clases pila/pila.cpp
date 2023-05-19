@@ -1,9 +1,7 @@
-
 #include <iostream>
 using namespace std;
 
-void decimalbinario(int decimal) 
-{
+void decimalbinario(int decimal) {
     int binario[20];
     int index = 0;
 
